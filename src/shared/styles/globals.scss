@@ -1,0 +1,14 @@
+@import './reset.scss';
+@import './themes/dark.scss';
+@import './themes/light.scss';
+
+:root {
+  --green: rgb(0, 128, 0);
+  --red: rgb(200, 0, 0);
+  --tiffany: rgb(0, 128, 128);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
