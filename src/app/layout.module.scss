@@ -1,0 +1,23 @@
+.layout {
+  position: relative;
+  display: flex;
+
+  .sidebar {
+    max-width: 260px;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--bg-soft-color);
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+
+    .main {
+      flex: 1 1 auto;
+    }
+  }
+}
